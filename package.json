@@ -1,0 +1,31 @@
+{
+  "name": "@wellspr/react-components",
+  "version": "1.0.0",
+  "description": "A simple template to create a typescript react components library",
+  "keywords": [],
+  "author": "Wells P.R. <paulowells@gmail.com>",
+  "main": "dist/cjs/index.js",
+  "module": "dist/esm/index.js",
+  "files": ["dist"],
+  "types": "dist/types/index.d.ts",
+  "scripts": {
+    "dev": "rollup -c --watch",
+    "build": "rollup -c"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/wellspr/react-components.git"
+  },
+  "license": "ISC",
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^22.0.2",
+    "@rollup/plugin-node-resolve": "^14.1.0",
+    "@rollup/plugin-typescript": "^8.5.0",
+    "@types/react": "^18.0.20",
+    "react": "^18.2.0",
+    "rollup": "^2.79.0",
+    "rollup-plugin-dts": "^4.2.2",
+    "tslib": "^2.4.0",
+    "typescript": "^4.8.3"
+  }
+}
