@@ -1,3 +1,4 @@
+import "./index.css";
 import React from "react";
 
 export interface TestComponentProps {
@@ -6,8 +7,8 @@ export interface TestComponentProps {
 
 const TestComponent: React.FC<TestComponentProps> = ({ children }) => {
     return (
-        <div>
-            <p>Test Component</p>
+        <div className="wrapper">
+            <p className="paragraph">Test Component</p>
 
             { children }
         </div>
